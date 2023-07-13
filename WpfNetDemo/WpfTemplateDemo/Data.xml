@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data xlns="">
+  <Grade Name="一年级">
+    <Class Name="甲班">
+      <Group Name="A组"></Group>
+      <Group Name="B组"></Group>
+      <Group Name="C组"></Group>
+    </Class>
+    <Class Name="乙班">
+      <Group Name="A组"></Group>
+      <Group Name="B组"></Group>
+      <Group Name="C组"></Group>
+    </Class>
+  </Grade>
+  <Grade Name="二年级">
+    <Class Name="甲班">
+      <Group Name="A组"></Group>
+      <Group Name="B组"></Group>
+      <Group Name="C组"></Group>
+    </Class>
+    <Class Name="乙班">
+      <Group Name="A组"></Group>
+      <Group Name="B组"></Group>
+      <Group Name="C组"></Group>
+    </Class>
+  </Grade>
+  <Operation Name="文件" Gesture="F">
+    <Operation Name="新建" Gesture="N">
+      <Operation Name="项目" Gesture="Control+P"></Operation>
+      <Operation Name="文档" Gesture="Control+W"></Operation>
+      <Operation Name="网站" Gesture="Control+D"></Operation>
+    </Operation>
+    <Operation Name="保存" Gesture="S"></Operation>
+    <Operation Name="打印" Gesture="P"></Operation>
+    <Operation Name="退出" Gesture="X"></Operation>
+  </Operation>
+  <Operation Name="编辑" Gesture="E">
+    <Operation Name="拷贝" Gesture="C"></Operation>
+    <Operation Name="剪切" Gesture="X"></Operation>
+    <Operation Name="粘贴" Gesture="V"></Operation>
+  </Operation>
+</Data>

@@ -1,0 +1,13 @@
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\WpfNetDemo.csproj.AssemblyReference.cache
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\MainWindow2.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\MainWindow3.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\MainWindow4.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\WpfTemplateDemo\App.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\WpfTemplateDemo\MainWindow.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\WpfTemplateDemo\View\CarDetailView.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\WpfTemplateDemo\View\CarListItemView.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\WpfNetDemo_MarkupCompile.cache
+C:\Users\Landon\source\repos\WpfNetDemo\obj\Debug\net7.0-windows\WpfNetDemo_MarkupCompile.lref
