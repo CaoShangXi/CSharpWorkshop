@@ -60,9 +60,16 @@
     </ApplicationDefinition>
     <Compile Include="Common\AutomakerToLogoPathConverter.cs" />
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
+    <Compile Include="ControlTemplateFindName.xaml.cs">
+      <DependentUpon>ControlTemplateFindName.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DataTemplateDataType.xaml.cs">
       <DependentUpon>DataTemplateDataType.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataTemplateFindName.xaml.cs">
+      <DependentUpon>DataTemplateFindName.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Unit.cs" />
     <Compile Include="StyleDemo.xaml.cs">
       <DependentUpon>StyleDemo.xaml</DependentUpon>
@@ -86,7 +93,15 @@
     <Compile Include="XMLToHierarchicalDataTemplate_TreeView.xaml.cs">
       <DependentUpon>XMLToHierarchicalDataTemplate_TreeView.xaml</DependentUpon>
     </Compile>
+    <Page Include="ControlTemplateFindName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DataTemplateDataType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataTemplateFindName.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
