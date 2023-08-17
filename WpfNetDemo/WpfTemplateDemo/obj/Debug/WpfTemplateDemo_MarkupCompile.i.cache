@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\App.xaml
-12570018280
+121301475408
 
-23351577079
+23-1883551769
 16-1981114786
-ControlTemplateFindName.xaml;DataTemplateDataType.xaml;DataTemplateFindName.xaml;StyleDemo.xaml;MainWindow.xaml;MainWindow2.xaml;View\CarDetailView.xaml;View\CarListItemView.xaml;VisualTreeHelper.xaml;XMLToDataTemplate.xaml;XMLToHierarchicalDataTemplate_MenuItem.xaml;XMLToHierarchicalDataTemplate_TreeView.xaml;
+ControlTemplateFindName.xaml;DataTemplateDataType.xaml;DataTemplateFindName.xaml;SetterDemo.xaml;StyleDemo.xaml;MainWindow.xaml;MainWindow2.xaml;View\CarDetailView.xaml;View\CarListItemView.xaml;XMLToDataTemplate.xaml;XMLToHierarchicalDataTemplate_MenuItem.xaml;XMLToHierarchicalDataTemplate_TreeView.xaml;
 
 True
 

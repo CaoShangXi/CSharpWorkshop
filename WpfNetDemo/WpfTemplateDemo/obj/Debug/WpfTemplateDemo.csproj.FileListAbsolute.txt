@@ -36,7 +36,6 @@ C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\bin\Debug\WpfT
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\bin\Debug\WpfTemplateDemo.exe
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\bin\Debug\WpfTemplateDemo.pdb
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.csproj.AssemblyReference.cache
-C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.csproj.SuggestedBindingRedirects.cache
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\DataTemplateDataType.g.cs
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\StyleDemo.g.cs
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\MainWindow.g.cs
@@ -70,3 +69,5 @@ C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\Cont
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\ControlTemplateFindName.baml
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\DataTemplateFindName.g.cs
 C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\DataTemplateFindName.baml
+C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\SetterDemo.g.cs
+C:\Users\Landon\Desktop\个人\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\SetterDemo.baml

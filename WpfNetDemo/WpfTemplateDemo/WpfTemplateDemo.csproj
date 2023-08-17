@@ -71,6 +71,9 @@
     </Compile>
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Unit.cs" />
+    <Compile Include="SetterDemo.xaml.cs">
+      <DependentUpon>SetterDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StyleDemo.xaml.cs">
       <DependentUpon>StyleDemo.xaml</DependentUpon>
     </Compile>
@@ -102,6 +105,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DataTemplateFindName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SetterDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
