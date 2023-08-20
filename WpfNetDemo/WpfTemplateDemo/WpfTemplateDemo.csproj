@@ -80,6 +80,9 @@
     <Compile Include="MainWindow2.xaml.cs">
       <DependentUpon>MainWindow2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TriggerDemo.xaml.cs">
+      <DependentUpon>TriggerDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\CarListItemViewModel.cs" />
     <Compile Include="View\CarDetailView.xaml.cs">
       <DependentUpon>CarDetailView.xaml</DependentUpon>
@@ -130,6 +133,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MainWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TriggerDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
