@@ -72,6 +72,9 @@
     </Compile>
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Unit.cs" />
+    <Compile Include="MultiDataTrigger.xaml.cs">
+      <DependentUpon>MultiDataTrigger.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SetterDemo.xaml.cs">
       <DependentUpon>SetterDemo.xaml</DependentUpon>
     </Compile>
@@ -109,6 +112,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DataTemplateFindName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MultiDataTrigger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

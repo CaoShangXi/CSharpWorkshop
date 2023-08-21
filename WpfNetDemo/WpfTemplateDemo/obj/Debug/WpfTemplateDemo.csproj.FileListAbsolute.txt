@@ -113,3 +113,5 @@ D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.ex
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.pdb
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\TriggerDemo.g.cs
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\TriggerDemo.baml
+D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\MultiDataTrigger.g.cs
+D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\MultiDataTrigger.baml
