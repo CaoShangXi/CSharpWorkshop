@@ -59,6 +59,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Common\AutomakerToLogoPathConverter.cs" />
+    <Compile Include="Common\L2BConverter.cs" />
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
     <Compile Include="ControlTemplateFindName.xaml.cs">
       <DependentUpon>ControlTemplateFindName.xaml</DependentUpon>
