@@ -70,6 +70,9 @@
     <Compile Include="DataTemplateFindName.xaml.cs">
       <DependentUpon>DataTemplateFindName.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EventTrigger.xaml.cs">
+      <DependentUpon>EventTrigger.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Unit.cs" />
     <Compile Include="MultiDataTrigger.xaml.cs">
@@ -112,6 +115,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DataTemplateFindName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EventTrigger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
