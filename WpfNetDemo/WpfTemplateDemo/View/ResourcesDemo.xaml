@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfTemplateDemo.View.ResourcesDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:WpfTemplateDemo.View"
+        mc:Ignorable="d"
+        Title="ResourcesDemo" Height="450" Width="800">
+    <Window.Resources>
+        <!--以下属于对象级资源，在检索资源时，先查找控件自己的Resources属性，如果没有这个资源程序会沿着逻辑树向上一级控件查找，如果连最顶层容器都没有这个资源，程序就会去查找Application.Resources（也就是程序的顶级资源），如果还没找到，那就只好抛出异常了。-->
+        <ResourceDictionary>
+            <sys:String x:Key="str">沉舟侧畔千帆过，病树前头万木春。</sys:String>
+            <sys:Double x:Key="db1">3.1456789</sys:Double>
+        </ResourceDictionary>
+    </Window.Resources>
+    <StackPanel>
+        <!--<TextBlock Text="{StaticResource ResourceKey=str}"/>-->
+        <!--可以简化为以下获取资源的书写格式-->
+        <TextBlock Text="{StaticResource str}"/>
+        <!--<TextBlock Text="{StaticResource ResourceKey=db1}"/>-->
+    </StackPanel>
+</Window>
