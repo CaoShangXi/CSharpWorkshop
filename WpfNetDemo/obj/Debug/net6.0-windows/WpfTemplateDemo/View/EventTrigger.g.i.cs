@@ -53,7 +53,7 @@ namespace WpfTemplateDemo {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfNetDemo;V1.0.0.0;component/wpftemplatedemo/view/eventtrigger.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfNetDemo;component/wpftemplatedemo/view/eventtrigger.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\WpfTemplateDemo\View\EventTrigger.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

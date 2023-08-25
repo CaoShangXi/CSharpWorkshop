@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,13 @@ namespace WpfTemplateDemo.View
             string text1=(string)Resources["str"];
             Console.WriteLine(text1);
             Console.WriteLine(text);
+            textBlockPassword.Text = Properties.Resources.Password;
+            #region 代码中设置图片
+            Uri imgUri =new Uri(@"../Resources/Images/Audi.jpg",UriKind.Relative);
+            ImageBg.Source = new BitmapImage(imgUri);
+            Uri imgUri2 = new Uri(@"pack://application:,,,/Resources/Images/Audi.jpg", UriKind.Absolute);
+            ImageBg.Source = new BitmapImage(imgUri2);
+            #endregion
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

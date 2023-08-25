@@ -22,7 +22,7 @@ namespace WpfTemplateDemo.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace WpfTemplateDemo.Properties {
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WpfTemplateDemo.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace WpfTemplateDemo.Properties {
         ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace WpfTemplateDemo.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Audi {
+        public static System.Drawing.Bitmap Audi {
             get {
                 object obj = ResourceManager.GetObject("Audi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace WpfTemplateDemo.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_logo {
+        public static System.Drawing.Bitmap Audi_logo {
             get {
                 object obj = ResourceManager.GetObject("Audi_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace WpfTemplateDemo.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Benz {
+        public static System.Drawing.Bitmap Benz {
             get {
                 object obj = ResourceManager.GetObject("Benz", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace WpfTemplateDemo.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Benz_logo {
+        public static System.Drawing.Bitmap Benz_logo {
             get {
                 object obj = ResourceManager.GetObject("Benz_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace WpfTemplateDemo.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap BYD {
+        public static System.Drawing.Bitmap BYD {
             get {
                 object obj = ResourceManager.GetObject("BYD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace WpfTemplateDemo.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap BYD_logo {
+        public static System.Drawing.Bitmap BYD_logo {
             get {
                 object obj = ResourceManager.GetObject("BYD_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -121,9 +121,27 @@ namespace WpfTemplateDemo.Properties {
         }
         
         /// <summary>
+        ///   查找类似 密码 的本地化字符串。
+        /// </summary>
+        public static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 用户名 的本地化字符串。
+        /// </summary>
+        public static string UserName {
+            get {
+                return ResourceManager.GetString("UserName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Volkswagen {
+        public static System.Drawing.Bitmap Volkswagen {
             get {
                 object obj = ResourceManager.GetObject("Volkswagen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +151,7 @@ namespace WpfTemplateDemo.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Volkswagen_logo {
+        public static System.Drawing.Bitmap Volkswagen_logo {
             get {
                 object obj = ResourceManager.GetObject("Volkswagen_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
