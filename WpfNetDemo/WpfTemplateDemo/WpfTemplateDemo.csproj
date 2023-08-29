@@ -61,6 +61,9 @@
     <Compile Include="Common\AutomakerToLogoPathConverter.cs" />
     <Compile Include="Common\L2BConverter.cs" />
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
+    <Compile Include="View\CommandDemo.xaml.cs">
+      <DependentUpon>CommandDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\ControlTemplateFindName.xaml.cs">
       <DependentUpon>ControlTemplateFindName.xaml</DependentUpon>
     </Compile>
@@ -109,6 +112,10 @@
     <Compile Include="View\XMLToHierarchicalDataTemplate_TreeView.xaml.cs">
       <DependentUpon>XMLToHierarchicalDataTemplate_TreeView.xaml</DependentUpon>
     </Compile>
+    <Page Include="View\CommandDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\ControlTemplateFindName.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -118,3 +118,5 @@ D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.cs
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.csproj.CoreCompileInputs.cache
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.exe
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.pdb
+D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\View\CommandDemo.g.cs
+D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\View\CommandDemo.baml
