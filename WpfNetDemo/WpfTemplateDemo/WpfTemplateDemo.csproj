@@ -61,6 +61,8 @@
     <Compile Include="Common\AutomakerToLogoPathConverter.cs" />
     <Compile Include="Common\L2BConverter.cs" />
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
+    <Compile Include="Model\ClearCommand.cs" />
+    <Compile Include="Model\IView.cs" />
     <Compile Include="View\CommandDemo.xaml.cs">
       <DependentUpon>CommandDemo.xaml</DependentUpon>
     </Compile>
@@ -81,9 +83,13 @@
     </Compile>
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Unit.cs" />
+    <Compile Include="View\MiniView.xaml.cs">
+      <DependentUpon>MiniView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MultiDataTrigger.xaml.cs">
       <DependentUpon>MultiDataTrigger.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\MyCommandResource.cs" />
     <Compile Include="View\ResourcesDemo.xaml.cs">
       <DependentUpon>ResourcesDemo.xaml</DependentUpon>
     </Compile>
@@ -105,6 +111,9 @@
     </Compile>
     <Compile Include="View\CarListItemView.xaml.cs">
       <DependentUpon>CarListItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\XMLToDataTemplate.xaml.cs">
       <DependentUpon>XMLToDataTemplate.xaml</DependentUpon>
@@ -136,6 +145,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\EventTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MiniView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -181,6 +194,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\CarListItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
