@@ -126,3 +126,5 @@ D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.g.
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.Properties.Resources.resources
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.csproj.GenerateResource.cache
 D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\WpfTemplateDemo.csproj.CoreCompileInputs.cache
+D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\View\DependencyProperty.g.cs
+D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\View\DependencyProperty.baml

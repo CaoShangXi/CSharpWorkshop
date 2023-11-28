@@ -78,6 +78,9 @@
     <Compile Include="View\DataTemplateFindName.xaml.cs">
       <DependentUpon>DataTemplateFindName.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\DependencyProperty.xaml.cs">
+      <DependentUpon>DependencyProperty.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\EventTrigger.xaml.cs">
       <DependentUpon>EventTrigger.xaml</DependentUpon>
     </Compile>
@@ -141,6 +144,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\DataTemplateFindName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DependencyProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
