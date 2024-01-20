@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\资料\学习\machine\WpfNetDemo\obj\Debug\net6.0-windows\
+C:\Users\Fuzhou\Desktop\资料\学习\machine\WpfNetDemo\obj\Debug\net6.0-windows\
 WpfNetDemo
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\资料\学习\machine\WpfNetDemo\App.xaml
+C:\Users\Fuzhou\Desktop\资料\学习\machine\WpfNetDemo\App.xaml
 272093197205
 
 114117222400
-194726069201
+194-827353010
 MainWindow.xaml;MainWindow2.xaml;MainWindow3.xaml;MainWindow4.xaml;WpfTemplateDemo\App.xaml;WpfTemplateDemo\View\CarDetailView.xaml;WpfTemplateDemo\View\CarListItemView.xaml;WpfTemplateDemo\View\CommandDemo.xaml;WpfTemplateDemo\View\CommandParameterDemo.xaml;WpfTemplateDemo\View\ControlTemplateFindName.xaml;WpfTemplateDemo\View\DataTemplateDataType.xaml;WpfTemplateDemo\View\DataTemplateFindName.xaml;WpfTemplateDemo\View\DependencyProperty.xaml;WpfTemplateDemo\View\EventTrigger.xaml;WpfTemplateDemo\View\MainWindow.xaml;WpfTemplateDemo\View\MainWindow2.xaml;WpfTemplateDemo\View\MiniView.xaml;WpfTemplateDemo\View\MultiDataTrigger.xaml;WpfTemplateDemo\View\ResourcesDemo.xaml;WpfTemplateDemo\View\SetterDemo.xaml;WpfTemplateDemo\View\StyleDemo.xaml;WpfTemplateDemo\View\TriggerDemo.xaml;WpfTemplateDemo\View\Window1.xaml;WpfTemplateDemo\View\XMLToDataTemplate.xaml;WpfTemplateDemo\View\XMLToHierarchicalDataTemplate_MenuItem.xaml;WpfTemplateDemo\View\XMLToHierarchicalDataTemplate_TreeView.xaml;WpfTemplateDemo\VisualTreeHelper.xaml;
 
-False
+True
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\
+C:\Users\Fuzhou\Desktop\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\obj\Debug\
 WpfTemplateDemo
 none
 false
 DEBUG;TRACE
-D:\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\App.xaml
+C:\Users\Fuzhou\Desktop\资料\学习\machine\WpfNetDemo\WpfTemplateDemo\App.xaml
 21-1639189985
 
-35-1242998386
+36678779735
 16-1981114786
 View\CommandDemo.xaml;View\CommandParameterDemo.xaml;View\ControlTemplateFindName.xaml;View\DataTemplateDataType.xaml;View\DataTemplateFindName.xaml;View\DependencyProperty.xaml;View\EventTrigger.xaml;View\MiniView.xaml;View\MultiDataTrigger.xaml;View\ResourcesDemo.xaml;View\SetterDemo.xaml;View\StyleDemo.xaml;View\MainWindow.xaml;View\MainWindow2.xaml;View\TriggerDemo.xaml;View\CarDetailView.xaml;View\CarListItemView.xaml;View\Window1.xaml;View\XMLToDataTemplate.xaml;View\XMLToHierarchicalDataTemplate_MenuItem.xaml;View\XMLToHierarchicalDataTemplate_TreeView.xaml;
 
-False
+True
 
