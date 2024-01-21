@@ -18,9 +18,9 @@ namespace WpfTemplateDemo.View
     /// <summary>
     /// DependencyProperty.xaml 的交互逻辑，依赖属性的演示
     /// </summary>
-    public partial class DependencyProperty : Window
+    public partial class DependencyPropertyDemo : Window
     {
-        public DependencyProperty()
+        public DependencyPropertyDemo()
         {
             InitializeComponent();
         }
