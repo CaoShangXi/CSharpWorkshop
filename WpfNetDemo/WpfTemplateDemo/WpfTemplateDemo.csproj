@@ -64,7 +64,9 @@
     <Compile Include="Model\ClearCommand.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
+    <Compile Include="Model\ReportTimeEventArgs.cs" />
     <Compile Include="Model\School.cs" />
+    <Compile Include="Model\TimeButton.cs" />
     <Compile Include="View\AttachedProperty.xaml.cs">
       <DependentUpon>AttachedProperty.xaml</DependentUpon>
     </Compile>
@@ -76,6 +78,9 @@
     </Compile>
     <Compile Include="View\ControlTemplateFindName.xaml.cs">
       <DependentUpon>ControlTemplateFindName.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomRoutedEventDemo.xaml.cs">
+      <DependentUpon>CustomRoutedEventDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\DataTemplateDataType.xaml.cs">
       <DependentUpon>DataTemplateDataType.xaml</DependentUpon>
@@ -148,6 +153,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ControlTemplateFindName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CustomRoutedEventDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
