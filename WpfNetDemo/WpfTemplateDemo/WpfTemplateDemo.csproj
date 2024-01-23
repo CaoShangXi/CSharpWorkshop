@@ -67,6 +67,9 @@
     <Compile Include="Model\ReportTimeEventArgs.cs" />
     <Compile Include="Model\School.cs" />
     <Compile Include="Model\TimeButton.cs" />
+    <Compile Include="View\AttachedEventDemo.xaml.cs">
+      <DependentUpon>AttachedEventDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\AttachedProperty.xaml.cs">
       <DependentUpon>AttachedProperty.xaml</DependentUpon>
     </Compile>
@@ -146,6 +149,10 @@
     <Compile Include="View\XMLToHierarchicalDataTemplate_TreeView.xaml.cs">
       <DependentUpon>XMLToHierarchicalDataTemplate_TreeView.xaml</DependentUpon>
     </Compile>
+    <Page Include="View\AttachedEventDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\AttachedProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

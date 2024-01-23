@@ -39,9 +39,9 @@ namespace WpfTemplateDemo.Model
         /// <param name="dp"></param>
         /// <param name="binding"></param>
         /// <returns></returns>
-        public BindingExpressionBase SetBinding(DependencyProperty dp,BindingBase binding)
+        public BindingExpressionBase SetBinding(DependencyProperty dp, BindingBase binding)
         {
-            return BindingOperations.SetBinding(this,dp,binding);
+            return BindingOperations.SetBinding(this, dp, binding);
         }
 
         /// <summary>
@@ -57,6 +57,33 @@ namespace WpfTemplateDemo.Model
         public static readonly DependencyProperty MyPropertyProperty =
             DependencyProperty.Register("MyProperty", typeof(int), typeof(Student), new PropertyMetadata(0));
 
+        //声明并定义路由事件
+        public static readonly RoutedEvent NameChangedEvent = EventManager.RegisterRoutedEvent("NameChanged", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(Student));
 
+        /// <summary>
+        /// 为界面元素添加路由事件侦听
+        /// </summary>
+        /// <param name="d"></param>
+        /// <param name="h"></param>
+        public static void AddNameChangedHandler(DependencyObject d, RoutedEventHandler h)
+        {
+            UIElement e = d as UIElement;
+            if (e != null)
+            {
+                e.AddHandler(Student.NameChangedEvent, h);
+            }
+        }
+        /// <summary>
+        /// 移除侦听
+        /// </summary>
+        /// <param name=""></param>
+        public static void RemoveNameChangedHandler(DependencyObject d, RoutedEventHandler h)
+        {
+            UIElement e = d as UIElement;
+            if (e != null)
+            {
+                e.RemoveHandler(Student.NameChangedEvent, h);
+            }
+        }
     }
 }
