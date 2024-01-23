@@ -106,11 +106,17 @@
     <Compile Include="View\ResourcesDemo.xaml.cs">
       <DependentUpon>ResourcesDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\RoutedEventArgsOfSourceAndOriginalSourceDemo.xaml.cs">
+      <DependentUpon>RoutedEventArgsOfSourceAndOriginalSourceDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\RoutingEventDemo.xaml.cs">
       <DependentUpon>RoutingEventDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\SetterDemo.xaml.cs">
       <DependentUpon>SetterDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SourceAndOriginalSourceUserControl.xaml.cs">
+      <DependentUpon>SourceAndOriginalSourceUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\StyleDemo.xaml.cs">
       <DependentUpon>StyleDemo.xaml</DependentUpon>
@@ -188,11 +194,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\RoutedEventArgsOfSourceAndOriginalSourceDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\RoutingEventDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\SetterDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SourceAndOriginalSourceUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
