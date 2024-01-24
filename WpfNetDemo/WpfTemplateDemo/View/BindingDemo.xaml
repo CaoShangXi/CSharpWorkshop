@@ -7,7 +7,14 @@
         mc:Ignorable="d"
         Title="BindingDemo" Height="450" Width="800">
     <StackPanel>
-        <TextBox x:Name="textBoxName" BorderBrush="Black" Margin="5"/>
-        <Button Content="Add Age" Margin="5" Click="Button_Click"/>
+        <StackPanel Background="AliceBlue">
+            <TextBox x:Name="textBoxName" BorderBrush="Black" Margin="5"/>
+            <Button Content="Add Age" Margin="5" Click="Button_Click"/>
+        </StackPanel>
+        
+        <StackPanel Background="Aqua">
+            <TextBox x:Name="textBox1" Text="{Binding Path=Value,ElementName=slider1}" BorderBrush="Black" Margin="5"/>
+            <Slider x:Name="slider1" Maximum="100" Minimum="0" Margin="5"/>
+        </StackPanel>
     </StackPanel>
 </Window>
