@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ using System.Windows.Data;
 
 namespace WpfTemplateDemo.Model
 {
-    public class Student : DependencyObject
+    public class Student : DependencyObject,INotifyPropertyChanged
     {
         public int Id { get; set; }
         public string Name
@@ -20,8 +21,13 @@ namespace WpfTemplateDemo.Model
             set
             {
                 SetValue(NameProperty, value);
+                //激发事件
+                PropertyChanged?.Invoke(this,new PropertyChangedEventArgs("Name"));
             }
         }
+
+        public event PropertyChangedEventHandler PropertyChanged; 
+
         public string Skill { get; set; }
         public bool HasJob { get; set; }
 
