@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WpfTemplateDemo.Model;
+using WpfTemplateDemo.View;
 
 namespace WpfTemplateDemo.View
 {
@@ -43,6 +44,55 @@ namespace WpfTemplateDemo.View
             //下面语法的作用是相同的
             textBoxName.SetBinding(TextBox.TextProperty, new Binding("Name") { Source = stu = new Student() });
 
+            //把Slider控件对象当作源、把它的Value属性作为路径。
+            //Binding binding=new Binding() { Path=new PropertyPath("Value"),Source=this.slider1};
+            //textBox1.SetBinding(TextBox.TextProperty, binding);
+            //Binding binding=new Binding("Value") { Source=this.slider1};
+            //textBox1.SetBinding(TextBox.TextProperty, binding);
+
+            //多级路径绑定，如Text.Length，可以一直.下去
+            //txt2.SetBinding(TextBox.TextProperty,new Binding("Text.Length") {Source=txt1 ,Mode=BindingMode.OneWay});
+
+            //使用集合的索引器指定Path，可以使用集合名.[下标]或集合名[下标]绑定源
+            txt4.SetBinding(TextBox.TextProperty, new Binding("Pens.[1]") { Source = stu = new Student() });
+
+            //使用Path绑定集合中的元素
+            List<string> stringList = new List<string> { "Tim", "Tom", "Blog" };
+            //绑定集合中第一个元素
+            txt5.SetBinding(TextBox.TextProperty, new Binding("/") { Source = stringList, Mode = BindingMode.OneWay });
+            //绑定集合中第一个元素的Length属性
+            txt6.SetBinding(TextBox.TextProperty, new Binding("/Length") { Source = stringList, Mode = BindingMode.OneWay });
+            //绑定集合中第三个元素
+            txt7.SetBinding(TextBox.TextProperty, new Binding("/[2]") { Source = stringList, Mode = BindingMode.OneWay });
+
+            //使用Path绑定集合中的元素
+            List<Country> countryList = new List<Country> {
+            new Country
+            {
+                Name="中国",
+                ProvinceList=new List<Province> {
+                new Province
+                {
+                    Name="四川",
+                    CityList=new List<City>
+                    {
+                        new City
+                        {
+                            Name="成都"
+                        }
+                    }
+                }
+
+                }
+            }
+            };
+            //用Path绑定集合中第一个元素的Name属性
+            txt8.SetBinding(TextBox.TextProperty, new Binding("/Name") { Source = countryList, Mode = BindingMode.OneWay });
+            //用Path绑定集合中第一个元素的集合ProvinceList的Name属性
+            txt9.SetBinding(TextBox.TextProperty, new Binding("/ProvinceList[0].Name") { Source = countryList, Mode = BindingMode.OneWay });
+            //用Path绑定集合中第一个元素的子孙集合CityList的Name属性
+            txt10.SetBinding(TextBox.TextProperty, new Binding("/ProvinceList/CityList[0].Name") { Source = countryList, Mode = BindingMode.OneWay });
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -50,5 +100,23 @@ namespace WpfTemplateDemo.View
             //对数据源进行更新，UI层也自动更新
             stu.Name += "Name";
         }
+    }
+
+    class City
+    {
+
+        public string Name { get; set; }
+    }
+    class Province
+    {
+
+        public string Name { get; set; }
+        public List<City> CityList { get; set; }
+    }
+    class Country
+    {
+
+        public string Name { get; set; }
+        public List<Province> ProvinceList { get; set; }
     }
 }

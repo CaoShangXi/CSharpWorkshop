@@ -30,5 +30,23 @@
             <TextBox x:Name="textBox1" Text="{Binding Path=Value,ElementName=slider1,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,NotifyOnSourceUpdated=True,NotifyOnTargetUpdated=True}" BorderBrush="Black" Margin="5"/>
             <Slider x:Name="slider1" Maximum="100" Minimum="0" Margin="5"/>
         </StackPanel>
+        <StackPanel>
+            <TextBox x:Name="txt1" BorderBrush="Red" Margin="5"/>
+            <TextBox x:Name="txt2" Text="{Binding Text.Length,ElementName=txt1,Mode=OneWay}"/>
+        </StackPanel>
+        <StackPanel>
+            <TextBox x:Name="txt3" BorderBrush="Red" Margin="5"/>
+            <TextBox x:Name="txt4"/>
+        </StackPanel>
+        <StackPanel>
+            <TextBox x:Name="txt5"/>
+            <TextBox x:Name="txt6"/>
+            <TextBox x:Name="txt7"/>
+        </StackPanel>
+        <StackPanel>
+            <TextBox x:Name="txt8"/>
+            <TextBox x:Name="txt9"/>
+            <TextBox x:Name="txt10"/>
+        </StackPanel>
     </StackPanel>
 </Window>

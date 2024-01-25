@@ -30,6 +30,7 @@ namespace WpfTemplateDemo.Model
 
         public string Skill { get; set; }
         public bool HasJob { get; set; }
+        public List<string> Pens { get; set; } = new List<string> { "钢笔", "铅笔", "圆珠笔" };
 
         /// <summary>
         ///Register方法第1个参数为string类型，用这个参数来指明以哪个CLR属性作为这个依赖属性的包装器，或者说此依赖属性支持 (back) 的是哪个CLR属性。
