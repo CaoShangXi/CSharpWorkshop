@@ -42,6 +42,7 @@ namespace WpfTemplateDemo.View
             //BindingOperations.SetBinding(this.textBoxName, TextBox.TextProperty, binding);
             //下面语法的作用是相同的
             textBoxName.SetBinding(TextBox.TextProperty, new Binding("Name") { Source = stu = new Student() });
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
