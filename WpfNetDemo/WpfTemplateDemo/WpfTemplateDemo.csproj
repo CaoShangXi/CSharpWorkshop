@@ -76,6 +76,9 @@
     <Compile Include="View\BindingDemo.xaml.cs">
       <DependentUpon>BindingDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\BindingPathDemo.xaml.cs">
+      <DependentUpon>BindingPathDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\CommandDemo.xaml.cs">
       <DependentUpon>CommandDemo.xaml</DependentUpon>
     </Compile>
@@ -161,6 +164,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BindingDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BindingPathDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
