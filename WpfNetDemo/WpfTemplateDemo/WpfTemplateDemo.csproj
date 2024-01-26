@@ -73,6 +73,9 @@
     <Compile Include="View\AttachedProperty.xaml.cs">
       <DependentUpon>AttachedProperty.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\BandingItemsSource.xaml.cs">
+      <DependentUpon>BandingItemsSource.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\BindingDataContext.xaml.cs">
       <DependentUpon>BindingDataContext.xaml</DependentUpon>
     </Compile>
@@ -163,6 +166,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\AttachedProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BandingItemsSource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
