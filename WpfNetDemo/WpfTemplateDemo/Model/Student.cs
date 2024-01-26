@@ -32,6 +32,8 @@ namespace WpfTemplateDemo.Model
         public bool HasJob { get; set; }
         public List<string> Pens { get; set; } = new List<string> { "钢笔", "铅笔", "圆珠笔" };
 
+        public int Age {  get; set; }
+
         /// <summary>
         ///Register方法第1个参数为string类型，用这个参数来指明以哪个CLR属性作为这个依赖属性的包装器，或者说此依赖属性支持 (back) 的是哪个CLR属性。
         /// 目前虽然没有为这个依赖属性准备包装器，但将来会使用名为Name的CLR属性来包装它，所以这个参数被赋值为Name。

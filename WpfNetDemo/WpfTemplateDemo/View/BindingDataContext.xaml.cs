@@ -15,16 +15,18 @@ using System.Windows.Shapes;
 namespace WpfTemplateDemo.View
 {
     /// <summary>
-    /// BindingPathDemo.xaml 的交互逻辑
+    /// BindingDataContext.xaml 的交互逻辑
     /// </summary>
-    public partial class BindingPathDemo : Window
+    public partial class BindingDataContext : Window
     {
-        public BindingPathDemo()
+        public BindingDataContext()
         {
             InitializeComponent();
+        }
 
-            string myString = "菩提本无树，明镜亦非台。本来无一物，何处惹尘埃。";
-            this.textBlock1.SetBinding(TextBlock.TextProperty,new Binding(".") { Source=myString});
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(this.btn.DataContext.ToString());
         }
     }
 }

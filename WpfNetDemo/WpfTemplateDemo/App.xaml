@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfTemplateDemo"
              xmlns:view="clr-namespace:WpfTemplateDemo.View"
-             StartupUri="View/BindingPathDemo.xaml">
+             StartupUri="View/BindingDataContext.xaml">
     <Application.Resources>
          
         <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
