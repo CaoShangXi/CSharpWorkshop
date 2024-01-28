@@ -79,6 +79,9 @@
     <Compile Include="View\BandingItemsSource.xaml.cs">
       <DependentUpon>BandingItemsSource.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\BandingXml.xaml.cs">
+      <DependentUpon>BandingXml.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\BindingDataContext.xaml.cs">
       <DependentUpon>BindingDataContext.xaml</DependentUpon>
     </Compile>
@@ -177,6 +180,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BandingItemsSource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BandingXml.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -342,6 +349,14 @@
     <Resource Include="Resources\Logos\Benz_logo.jpg" />
     <Resource Include="Resources\Logos\BYD_logo.jpg" />
     <Resource Include="Resources\Logos\Volkswagen_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Xml\RawData.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Xml\Books.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

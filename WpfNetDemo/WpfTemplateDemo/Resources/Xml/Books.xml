@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Folder Name="Books">
+	<Folder Name="Programming">
+		<Folder Name="Windows">
+			<Folder Name="WPF"/>
+			<Folder Name="MFC"/>
+			<Folder Name="Delphi"/>
+		</Folder>
+	</Folder>
+	<Folder Name="Tools">
+		<Folder Name="Development"/>
+		<Folder Name="Designment"/>
+		<Folder Name="Players"/>
+	</Folder>
+</Folder>
