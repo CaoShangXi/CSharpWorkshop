@@ -79,6 +79,9 @@
     <Compile Include="View\BandingItemsSource.xaml.cs">
       <DependentUpon>BandingItemsSource.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\BandingLINQ.xaml.cs">
+      <DependentUpon>BandingLINQ.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\BandingXml.xaml.cs">
       <DependentUpon>BandingXml.xaml</DependentUpon>
     </Compile>
@@ -180,6 +183,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BandingItemsSource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BandingLINQ.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
