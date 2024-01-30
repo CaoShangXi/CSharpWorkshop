@@ -18,9 +18,9 @@ namespace WpfTemplateDemo.View
     /// <summary>
     /// BandingXml.xaml 的交互逻辑
     /// </summary>
-    public partial class BandingXml : Window
+    public partial class BindingXml : Window
     {
-        public BandingXml()
+        public BindingXml()
         {
             InitializeComponent();
         }

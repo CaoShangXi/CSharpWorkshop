@@ -16,11 +16,11 @@ using WpfTemplateDemo.Model;
 namespace WpfTemplateDemo.View
 {
     /// <summary>
-    /// BandingItemsSource.xaml 的交互逻辑
+    /// BindingItemsSource.xaml 的交互逻辑
     /// </summary>
-    public partial class BandingItemsSource : Window
+    public partial class BindingItemsSource : Window
     {
-        public BandingItemsSource()
+        public BindingItemsSource()
         {
             InitializeComponent();
             //准备数据源

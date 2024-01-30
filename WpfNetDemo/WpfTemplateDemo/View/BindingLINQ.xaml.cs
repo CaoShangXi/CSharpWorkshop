@@ -18,11 +18,11 @@ using WpfTemplateDemo.Model;
 namespace WpfTemplateDemo.View
 {
     /// <summary>
-    /// BandingLINQ.xaml 的交互逻辑
+    /// BindingLINQ.xaml 的交互逻辑
     /// </summary>
-    public partial class BandingLINQ : Window
+    public partial class BindingLINQ : Window
     {
-        public BandingLINQ()
+        public BindingLINQ()
         {
             InitializeComponent();
         }

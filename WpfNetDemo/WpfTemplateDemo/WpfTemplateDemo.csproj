@@ -74,20 +74,20 @@
     <Compile Include="View\AttachedProperty.xaml.cs">
       <DependentUpon>AttachedProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\BadingObjectDataProvider.xaml.cs">
-      <DependentUpon>BadingObjectDataProvider.xaml</DependentUpon>
+    <Compile Include="View\BindingObjectDataProvider.xaml.cs">
+      <DependentUpon>BindingObjectDataProvider.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\BandingADO_NET.xaml.cs">
-      <DependentUpon>BandingADO_NET.xaml</DependentUpon>
+    <Compile Include="View\BindingADO_NET.xaml.cs">
+      <DependentUpon>BindingADO_NET.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\BandingItemsSource.xaml.cs">
-      <DependentUpon>BandingItemsSource.xaml</DependentUpon>
+    <Compile Include="View\BindingItemsSource.xaml.cs">
+      <DependentUpon>BindingItemsSource.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\BandingLINQ.xaml.cs">
-      <DependentUpon>BandingLINQ.xaml</DependentUpon>
+    <Compile Include="View\BindingLINQ.xaml.cs">
+      <DependentUpon>BindingLINQ.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\BandingXml.xaml.cs">
-      <DependentUpon>BandingXml.xaml</DependentUpon>
+    <Compile Include="View\BindingXml.xaml.cs">
+      <DependentUpon>BindingXml.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\BindingDataContext.xaml.cs">
       <DependentUpon>BindingDataContext.xaml</DependentUpon>
@@ -97,6 +97,9 @@
     </Compile>
     <Compile Include="View\BindingPathDemo.xaml.cs">
       <DependentUpon>BindingPathDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BindingRelativeSource.xaml.cs">
+      <DependentUpon>BindingRelativeSource.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\CommandDemo.xaml.cs">
       <DependentUpon>CommandDemo.xaml</DependentUpon>
@@ -182,23 +185,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\BadingObjectDataProvider.xaml">
+    <Page Include="View\BindingObjectDataProvider.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\BandingADO_NET.xaml">
+    <Page Include="View\BindingADO_NET.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\BandingItemsSource.xaml">
+    <Page Include="View\BindingItemsSource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\BandingLINQ.xaml">
+    <Page Include="View\BindingLINQ.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\BandingXml.xaml">
+    <Page Include="View\BindingXml.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -211,6 +214,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BindingPathDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BindingRelativeSource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

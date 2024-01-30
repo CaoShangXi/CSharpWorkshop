@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WpfTemplateDemo.View
 {
     /// <summary>
-    /// BandingADO_NET.xaml 的交互逻辑
+    /// BindingADO_NET.xaml 的交互逻辑
     /// </summary>
-    public partial class BandingADO_NET : Window
+    public partial class BindingADO_NET : Window
     {
-        public BandingADO_NET()
+        public BindingADO_NET()
         {
             InitializeComponent();
         }

@@ -17,11 +17,11 @@ using WpfTemplateDemo.Model;
 namespace WpfTemplateDemo.View
 {
     /// <summary>
-    /// BadingObjectDataProvider.xaml 的交互逻辑
+    /// BindingObjectDataProvider.xaml 的交互逻辑
     /// </summary>
-    public partial class BadingObjectDataProvider : Window
+    public partial class BindingObjectDataProvider : Window
     {
-        public BadingObjectDataProvider()
+        public BindingObjectDataProvider()
         {
             InitializeComponent();
             this.SetBinding();
