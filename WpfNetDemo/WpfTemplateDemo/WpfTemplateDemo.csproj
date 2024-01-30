@@ -61,6 +61,7 @@
     <Compile Include="Common\AutomakerToLogoPathConverter.cs" />
     <Compile Include="Common\L2BConverter.cs" />
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
+    <Compile Include="Model\Calculator.cs" />
     <Compile Include="Model\ClearCommand.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
@@ -72,6 +73,9 @@
     </Compile>
     <Compile Include="View\AttachedProperty.xaml.cs">
       <DependentUpon>AttachedProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BadingObjectDataProvider.xaml.cs">
+      <DependentUpon>BadingObjectDataProvider.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\BandingADO_NET.xaml.cs">
       <DependentUpon>BandingADO_NET.xaml</DependentUpon>
@@ -175,6 +179,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\AttachedProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BadingObjectDataProvider.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
