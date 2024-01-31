@@ -65,6 +65,7 @@
     <Compile Include="Model\ClearCommand.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
+    <Compile Include="Model\RangeValidationRule.cs" />
     <Compile Include="Model\ReportTimeEventArgs.cs" />
     <Compile Include="Model\School.cs" />
     <Compile Include="Model\TimeButton.cs" />
@@ -85,6 +86,9 @@
     </Compile>
     <Compile Include="View\BindingLINQ.xaml.cs">
       <DependentUpon>BindingLINQ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BindingValidation.xaml.cs">
+      <DependentUpon>BindingValidation.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\BindingXml.xaml.cs">
       <DependentUpon>BindingXml.xaml</DependentUpon>
@@ -198,6 +202,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BindingLINQ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BindingValidation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
