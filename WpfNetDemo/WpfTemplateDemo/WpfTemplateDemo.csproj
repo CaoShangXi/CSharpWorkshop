@@ -59,12 +59,17 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Common\AutomakerToLogoPathConverter.cs" />
+    <Compile Include="Common\CategoryToSourceConverter.cs" />
     <Compile Include="Common\L2BConverter.cs" />
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
+    <Compile Include="Common\State.cs" />
+    <Compile Include="Common\StateToNullableBoolConverter.cs" />
     <Compile Include="Model\Calculator.cs" />
+    <Compile Include="Common\Category.cs" />
     <Compile Include="Model\ClearCommand.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
+    <Compile Include="Model\Plane.cs" />
     <Compile Include="Model\RangeValidationRule.cs" />
     <Compile Include="Model\ReportTimeEventArgs.cs" />
     <Compile Include="Model\School.cs" />
@@ -74,6 +79,9 @@
     </Compile>
     <Compile Include="View\AttachedProperty.xaml.cs">
       <DependentUpon>AttachedProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BindingConvert.xaml.cs">
+      <DependentUpon>BindingConvert.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\BindingObjectDataProvider.xaml.cs">
       <DependentUpon>BindingObjectDataProvider.xaml</DependentUpon>
@@ -186,6 +194,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\AttachedProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BindingConvert.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -387,6 +399,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Xml\Books.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Icons\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
