@@ -61,6 +61,7 @@
     <Compile Include="Common\AutomakerToLogoPathConverter.cs" />
     <Compile Include="Common\CategoryToSourceConverter.cs" />
     <Compile Include="Common\L2BConverter.cs" />
+    <Compile Include="Common\LogonMultiBindingConverter.cs" />
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
     <Compile Include="Common\State.cs" />
     <Compile Include="Common\StateToNullableBoolConverter.cs" />
@@ -141,6 +142,9 @@
     <Compile Include="Model\Unit.cs" />
     <Compile Include="View\MiniView.xaml.cs">
       <DependentUpon>MiniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MultiBindingDemo.xaml.cs">
+      <DependentUpon>MultiBindingDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\MultiDataTrigger.xaml.cs">
       <DependentUpon>MultiDataTrigger.xaml</DependentUpon>
@@ -274,6 +278,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\MiniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MultiBindingDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
