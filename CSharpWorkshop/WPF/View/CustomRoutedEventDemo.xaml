@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPF.View.CustomRoutedEventDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local2="clr-namespace:WPF.Model"
+        mc:Ignorable="d"
+        Title="CustomRoutedEventDemo" Height="450" Width="800"
+        xmlns:local="clr-namespace:WPF"
+        local2:TimeButton.ReportTime="ReportTimeHandler">
+    <!--1.因为我们为TimeButton注册ReportTimeEvent时使用的是Bubble策略，所以事件是沿这样的路径由内向外传递的：
+    TimeButton->StackPanel->Grid->Grid->Grid->Window-->
+    
+    <!--2.正好与Bubble策略相反，Tunnel策略使事件沿着从外向内的路径传递：Window一→Grid→Grid
+    →Grid→StackPanel→TimeButton。-->
+    <!--local2:TimeButton.ReportTime="ReportTimeHandler"表示该控件侦听着TimeButton.ReportTimeEvent这个路由事件，并用ReportTimeHandler方法来响应这个事件。-->
+    <Grid x:Name="grid_1" local2:TimeButton.ReportTime="ReportTimeHandler">
+        <Grid x:Name="grid_2" local2:TimeButton.ReportTime="ReportTimeHandler">
+            <Grid x:Name="grid_3" local2:TimeButton.ReportTime="ReportTimeHandler">
+                <StackPanel x:Name="stackPanel_1" local2:TimeButton.ReportTime="ReportTimeHandler">
+                    <ListBox x:Name="listBox"/>
+                    <local2:TimeButton x:Name="timeButton" Width="80" Height="80" Content="报时" local2:TimeButton.ReportTime="ReportTimeHandler"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

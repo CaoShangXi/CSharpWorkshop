@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPF.ControlTemplateFindName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="ControlTemplateFindName" Height="450" Width="800">
+    <Window.Resources>
+        <!--ControlTemplate和DataTemplate两个类均派生自FrameworkTemplate类，这个类有个名为FindName的方法供我们检索其内部控件-->
+        <ControlTemplate x:Key="cTmp">
+            <StackPanel Background="Orange">
+                <TextBox Name="textBox1" Margin="6"/>
+                <TextBox Name="textBox2" Margin="6,0"/>
+                <TextBox Name="textBox3" Margin="6"/>
+            </StackPanel>
+        </ControlTemplate>
+    </Window.Resources>
+    <StackPanel Background="Yellow">
+        <UserControl x:Name="uc" Template="{StaticResource cTmp}" Margin="5"/>
+        <Button Content="Find By Name" Width="120" Height="30" Click="Button_Click"/>
+    </StackPanel>
+</Window>
