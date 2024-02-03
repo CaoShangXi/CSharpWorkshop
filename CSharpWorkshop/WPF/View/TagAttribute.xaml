@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPF.View.TagAttribute"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF.View"
+        mc:Ignorable="d"
+        Title="TagAttribute" Height="450" Width="800">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <!--一个标签的Attribute里有一部分与对象的Property互相对应，<Rectangle>
+            标签的Fill这个Attribute就是这样它与Rectangle类对象的Fil属性对应。在MSDN文档库耳
+            可以查到，Rectangle.Fil的类型是Brush。Brush是一个抽象类，凡是以Brush为基类的类都可作
+            为Fl属性的值。Brush的派生类有很多，
+            SolidColorBrush:单色画刷。
+            LinearGradientBrush:线性渐变画刷。
+            RadialGradientBrush:径向渐变画刷。
+            ImageBrush:位图画刷。
+            DrawingBrush:矢量图画刷。
+            VisualBrush:可视元素画刷。-->
+        <Rectangle x:Name="rectangle" Width="200" Height="120" Fill="Blue"/>
+    </Grid>
+</Window>

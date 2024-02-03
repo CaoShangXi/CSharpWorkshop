@@ -65,6 +65,7 @@
     <Compile Include="Common\NameToPhotoPathConverter.cs" />
     <Compile Include="Common\State.cs" />
     <Compile Include="Common\StateToNullableBoolConverter.cs" />
+    <Compile Include="Common\StringToHumanTypeConverter.cs" />
     <Compile Include="Model\Calculator.cs" />
     <Compile Include="Common\Category.cs" />
     <Compile Include="Model\ClearCommand.cs" />
@@ -150,6 +151,9 @@
       <DependentUpon>MultiDataTrigger.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\MyCommandResource.cs" />
+    <Compile Include="View\PropertyElement.xaml.cs">
+      <DependentUpon>PropertyElement.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\ResourcesDemo.xaml.cs">
       <DependentUpon>ResourcesDemo.xaml</DependentUpon>
     </Compile>
@@ -171,6 +175,9 @@
     <Compile Include="View\MainWindow2.xaml.cs">
       <DependentUpon>MainWindow2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\TagAttribute.xaml.cs">
+      <DependentUpon>TagAttribute.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\TriggerDemo.xaml.cs">
       <DependentUpon>TriggerDemo.xaml</DependentUpon>
     </Compile>
@@ -183,6 +190,9 @@
     </Compile>
     <Compile Include="View\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\XamlTypeConverter.xaml.cs">
+      <DependentUpon>XamlTypeConverter.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\XMLToDataTemplate.xaml.cs">
       <DependentUpon>XMLToDataTemplate.xaml</DependentUpon>
@@ -289,6 +299,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\PropertyElement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\ResourcesDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -330,6 +344,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\TagAttribute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\TriggerDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -343,6 +361,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\XamlTypeConverter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
