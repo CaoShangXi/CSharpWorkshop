@@ -71,6 +71,7 @@
     <Compile Include="Model\ClearCommand.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
+    <Compile Include="View\MyButton.cs" />
     <Compile Include="Model\Plane.cs" />
     <Compile Include="Model\RangeValidationRule.cs" />
     <Compile Include="Model\ReportTimeEventArgs.cs" />
@@ -115,6 +116,9 @@
     <Compile Include="View\BindingRelativeSource.xaml.cs">
       <DependentUpon>BindingRelativeSource.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ClassModifierDemo.xaml.cs">
+      <DependentUpon>ClassModifierDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\CommandDemo.xaml.cs">
       <DependentUpon>CommandDemo.xaml</DependentUpon>
     </Compile>
@@ -141,6 +145,9 @@
     </Compile>
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Unit.cs" />
+    <Compile Include="View\FieldModifierDemo.xaml.cs">
+      <DependentUpon>FieldModifierDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MiniView.xaml.cs">
       <DependentUpon>MiniView.xaml</DependentUpon>
     </Compile>
@@ -151,6 +158,9 @@
       <DependentUpon>MultiDataTrigger.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\MyCommandResource.cs" />
+    <Compile Include="View\MyWindow.xaml.cs">
+      <DependentUpon>MyWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\PropertyElement.xaml.cs">
       <DependentUpon>PropertyElement.xaml</DependentUpon>
     </Compile>
@@ -187,6 +197,9 @@
     </Compile>
     <Compile Include="View\CarListItemView.xaml.cs">
       <DependentUpon>CarListItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TypeDemo.xaml.cs">
+      <DependentUpon>TypeDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
@@ -255,6 +268,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\ClassModifierDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\CommandDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -287,6 +304,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\FieldModifierDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\MiniView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -296,6 +317,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\MultiDataTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MyWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -357,6 +382,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\CarListItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TypeDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF.View.ClassModifierDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF.View"
+        mc:Ignorable="d"
+        Title="ClassModifierDemo" 
+        Height="450" 
+        Width="800"
+        x:ClassModifier="internal">
+    <!--将类的访问控制修改为internal，internal与private等价，在这里变成了private(之所以是private而不是internal是因为程序集级别的internal与private等价)-->
+    <Grid>
+        
+    </Grid>
+</Window>

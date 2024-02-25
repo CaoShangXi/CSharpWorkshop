@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPF.View.FieldModifierDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF.View"
+        mc:Ignorable="d"
+        Title="FieldModifierDemo" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <!--使用x:Name后，XAML标签对应的实例就具有了自己的引用变量，而且这些引用变量都是类
+                  的字段。既然是类的字段就免不了要关注一下它们的访问级别。默认情况下，这些字段的访问
+                  级别按照面向对象的封装原则被设置成了internal。在编程的时候，有时候我们需要从一个程序
+                  集访问另一个程序集中窗体的元素，这时候就需要把被访问控件的引用变量改为public级别，
+                  x:FieldModifier就是用来在XAML里改变引用变量访问级别的。
+            注意
+            因为x:FieldModifier是用来改变引用变量访问级别的，所以使用x:FieldModifier的前提是这个标签同时也使用x:Name,不然何来的引用变量呢？-->
+            <TextBox x:Name="textBox1" x:FieldModifier="public"/>
+            <TextBox x:Name="textBox2" x:FieldModifier="public"/>
+            <TextBox x:Name="textBox3" />
+            <!--textBox1和textBox2的访问级别被设置为public,而textBox3的访问级别仍然为默从的internal(即程序集级别)。-->
+        </StackPanel>
+    </Grid>
+</Window>
