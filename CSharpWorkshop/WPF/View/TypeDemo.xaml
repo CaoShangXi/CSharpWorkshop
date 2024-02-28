@@ -8,6 +8,19 @@
         xmlns:model="clr-naspace: WPF.Model"
         Title="TypeDemo" Height="450" Width="800">
     <Grid>
-        <local:MyButton Content="OK" UserWindowType="{x:Type local:MyWindow}" BorderBrush="AliceBlue" Width="120" Height="60"/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <local:MyButton Grid.Row="0" Content="OK" UserWindowType="{x:Type local:MyWindow}" BorderBrush="AliceBlue" Width="120" Height="60"/>
+        <StackPanel Grid.Row="1">
+            <Button Margin="5">
+                <!--继承自ContentControl类的标签只能由单一元素充当其内容，如果内容内有多个子标签，我们可以使用包含多个标签元素的布局标签包含子元素-->
+                <StackPanel>
+                    <TextBlock Text="Hello"/>
+                    <Image Source="pack://application:,,,/Resources/Images/Audi.jpg" Width="30" Height="30"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
