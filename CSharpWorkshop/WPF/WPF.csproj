@@ -69,6 +69,7 @@
     <Compile Include="Model\Calculator.cs" />
     <Compile Include="Common\Category.cs" />
     <Compile Include="Model\ClearCommand.cs" />
+    <Compile Include="Model\Employee.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
     <Compile Include="View\MyButton.cs" />

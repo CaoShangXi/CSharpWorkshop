@@ -37,5 +37,18 @@
             <TextBlock TextWrapping="WrapWithOverflow" Margin="10"
              Text="一棵树、一匹马、一头大象和一只鸡在一起，打一种日常用品。"/>
         </GroupBox>
+        <!--本族元素的特点如下：
+                1.均派生自ItemsControl类。
+                2.它们都是控件，用于显示列表化的数据。
+                3.内容属性为Items或ItemsSource.
+                4.每种ItemsControl都对应有自己的条目容器(Item Container)。-->
+        <ListBox Margin="5" Grid.Row="3" x:Name="listBoxEmplyee">
+            <!--<CheckBox x:Name="checkBoxTim" Content="Tim"/>
+            <CheckBox x:Name="checkBoxTom" Content="Tom"/>
+            <CheckBox x:Name="checkBoxBruce" Content="Bruce"/>
+            <Button x:Name="buttonMess" Content="Mess"/>
+            <Button x:Name="buttonOwen" Content="Owen"/>
+            <Button x:Name="buttonVictor" Content="Victor" Click="buttonVictor_Click"/>-->
+        </ListBox>
     </Grid>
 </Window>
