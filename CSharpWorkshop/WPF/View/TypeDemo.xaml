@@ -11,6 +11,7 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <local:MyButton Grid.Row="0" Content="OK" UserWindowType="{x:Type local:MyWindow}" BorderBrush="AliceBlue" Width="120" Height="60"/>
         <StackPanel Grid.Row="1">
@@ -22,5 +23,19 @@
                 </StackPanel>
             </Button>
         </StackPanel>
+        <!--本族元素的特点如下：
+                1.它们都派生自HeaderedContentControl类，HeaderedContentControl是ContentControl类的
+                派生类。
+                2.它们都是控件，用于显示带标题的数据。
+                3.除了用于显示主体内容的区域外，控件还具有一个显示标题(Header)的区域。
+                4.内容属性为Content和Header。
+                5.无论是Content还是Header都只能容纳一个元素作为其内容。-->
+        <GroupBox Margin="10" BorderBrush="Gray" Grid.Row="2">
+            <GroupBox.Header>
+                <Image Source="pack://application:,,,/Resources/Images/Audi.jpg" Width="20" Height="20"/>
+            </GroupBox.Header>
+            <TextBlock TextWrapping="WrapWithOverflow" Margin="10"
+             Text="一棵树、一匹马、一头大象和一只鸡在一起，打一种日常用品。"/>
+        </GroupBox>
     </Grid>
 </Window>
