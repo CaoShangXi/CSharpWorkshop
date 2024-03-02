@@ -12,6 +12,8 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <local:MyButton Grid.Row="0" Content="OK" UserWindowType="{x:Type local:MyWindow}" BorderBrush="AliceBlue" Width="120" Height="60"/>
         <StackPanel Grid.Row="1">
@@ -50,5 +52,8 @@
             <Button x:Name="buttonOwen" Content="Owen"/>
             <Button x:Name="buttonVictor" Content="Victor" Click="buttonVictor_Click"/>-->
         </ListBox>
+        <Border BorderBrush="Blue" BorderThickness="2" Grid.Row="4">
+            <TextBlock Text="PASS"/>
+        </Border>
     </Grid>
 </Window>
