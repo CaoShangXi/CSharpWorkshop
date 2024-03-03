@@ -214,6 +214,9 @@
     <Compile Include="View\TypeDemo.xaml.cs">
       <DependentUpon>TypeDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\WrapPanelDemo.xaml.cs">
+      <DependentUpon>WrapPanelDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -415,6 +418,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\TypeDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WrapPanelDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
