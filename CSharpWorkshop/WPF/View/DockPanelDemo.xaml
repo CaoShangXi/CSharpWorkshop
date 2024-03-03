@@ -1,0 +1,38 @@
+﻿<Window x:Class="WPF.View.DockPanelDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF.View"
+        mc:Ignorable="d"
+        Title="DockPanelDemo" Height="450" Width="800">
+    <Grid>
+        <!--<DockPanel>
+            <TextBox DockPanel.Dock="Top" Height="25" BorderBrush="Black"/>
+            <TextBox DockPanel.Dock="Left" Width="150" BorderBrush="Black"/>
+            <TextBox BorderBrush="Black"/>
+        </DockPanel>-->
+
+        <!--为了控件能拖拽，设置了一个可拖拽的分隔栏，
+            让用户能调整TextBox的宽度。可惜，DockPanel不具备这样的功能，我们只能使用Grid和
+            GridSplitter来实现这个需求(GridSplitter会改变Grid初始设置的行高或列宽)。-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.ColumnSpan="3" BorderBrush="Black"/>
+        <TextBox Grid.Row="1" BorderBrush="Black"/>
+        <GridSplitter Grid.Row="1" Grid.Column="1"
+        VerticalAlignment="Stretch"
+        HorizontalAlignment="Center"
+        Width="5"
+        Background="Gray"
+        ShowsPreview="True"/>
+            <TextBox Grid.Row="1" Grid.Column="2" BorderBrush="Black"/>
+    </Grid>
+</Window>
