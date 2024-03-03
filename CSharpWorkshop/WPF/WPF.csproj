@@ -72,6 +72,9 @@
     <Compile Include="Model\Employee.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
+    <Compile Include="View\CanvasDemo.xaml.cs">
+      <DependentUpon>CanvasDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\GridDemo.xaml.cs">
       <DependentUpon>GridDemo.xaml</DependentUpon>
     </Compile>
@@ -272,6 +275,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\BindingRelativeSource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CanvasDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
