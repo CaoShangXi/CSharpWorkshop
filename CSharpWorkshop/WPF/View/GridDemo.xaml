@@ -69,7 +69,7 @@
             ●指定一个控件在某行，就为这个控件的标签添加Gid.Row="行编号"这样一个Attribute,若行编号为0（即控件处
             于首行)则可省略这个Attribute。
             ●指定一个控件在某列，就为此控件添加Grid.Column="列编号"这样的Attribute,若列编号为0则Attribute可以省略不写。
-            ●若控件需要跨多个行或列，请使用Gnid.RowSpan=-"行数"和Grid.ColumnSpan=-"列数"两个Attribute。-->
+            ●若控件需要跨多个行或列，请使用Gnid.RowSpan="行数"和Grid.ColumnSpan="列数"两个Attribute。-->
         <TextBlock Text="请选择您的部门并留言：" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center"/>
         <ComboBox Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="4"/>
         <TextBox Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="5" BorderBrush="Black"/>
