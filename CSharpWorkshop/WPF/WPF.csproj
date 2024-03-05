@@ -195,6 +195,9 @@
     <Compile Include="View\SetterDemo.xaml.cs">
       <DependentUpon>SetterDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ShapePathDemo.xaml.cs">
+      <DependentUpon>ShapePathDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\SourceAndOriginalSourceUserControl.xaml.cs">
       <DependentUpon>SourceAndOriginalSourceUserControl.xaml</DependentUpon>
     </Compile>
@@ -393,6 +396,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\SetterDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ShapePathDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
