@@ -78,6 +78,9 @@
     <Compile Include="View\DockPanelDemo.xaml.cs">
       <DependentUpon>DockPanelDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\EllipseDemo.xaml.cs">
+      <DependentUpon>EllipseDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\GridDemo.xaml.cs">
       <DependentUpon>GridDemo.xaml</DependentUpon>
     </Compile>
@@ -220,6 +223,9 @@
     <Compile Include="View\TypeDemo.xaml.cs">
       <DependentUpon>TypeDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\VisualBrushDemo.xaml.cs">
+      <DependentUpon>VisualBrushDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\WrapPanelDemo.xaml.cs">
       <DependentUpon>WrapPanelDemo.xaml</DependentUpon>
     </Compile>
@@ -330,6 +336,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\EllipseDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\EventTrigger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -432,6 +442,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\TypeDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VisualBrushDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
