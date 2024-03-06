@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF.View"
         mc:Ignorable="d"
-        Title="ShapePathDemo" Height="450" Width="1000">
+        Title="ShapePathDemo" Height="600" Width="1000">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -116,7 +116,7 @@
                     </PathGeometry>
                     <PathGeometry>
                         <PathFigure StartPoint="0,0">
-                        <BezierSegment Point1="190,0" Point2="50,200" Point3="300,200"/>
+                            <BezierSegment Point1="190,0" Point2="50,200" Point3="300,200"/>
                         </PathFigure>
                     </PathGeometry>
                     <PathGeometry>

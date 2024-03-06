@@ -75,6 +75,9 @@
     <Compile Include="View\CanvasDemo.xaml.cs">
       <DependentUpon>CanvasDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ClipDemo.xaml.cs">
+      <DependentUpon>ClipDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\DockPanelDemo.xaml.cs">
       <DependentUpon>DockPanelDemo.xaml</DependentUpon>
     </Compile>
@@ -304,6 +307,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ClassModifierDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ClipDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
