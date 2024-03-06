@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF.View"
         mc:Ignorable="d"
-        Title="ShapePathDemo" Height="450" Width="800">
+        Title="ShapePathDemo" Height="450" Width="1000">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="160"/>
-            <ColumnDefinition Width="160"/>
-            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="160"/>
-            <RowDefinition Height="160"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <!--WpF绘图的重点在于Path,Path的重点在于PathGeometry,PathGeomtr之所以
 如此重要是因为Path的Figures属性可以容纳PathFigure对象，而PathFigure的Segments
@@ -70,6 +71,70 @@
                     <LineSegment Point="0,30"/>
                     </PathFigure>
                 </PathGeometry>
+            </Path.Data>
+        </Path>
+        <!--三次方贝塞尔曲线示例-->
+        <Path Stroke="Black" StrokeThickness="2" Grid.Column="2" Grid.Row="1">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="0,0">
+                        <BezierSegment Point1="250,0" Point2="50,200" Point3="300,200"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+
+        <!--二次方贝塞尔曲线示例-->
+        <Path Stroke="Black" StrokeThickness="2"  Grid.Column="3" Grid.Row="0">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="0,200">
+                        <QuadraticBezierSegment Point1="150,-100" Point2="300,200"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        
+        <!--几何图形数组-->
+        <Path Stroke="Black" Fill="LightBlue" StrokeThickness="1" Grid.Column="3" Grid.Row="1">
+            <Path.Data>
+                <GeometryGroup>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0">
+                            <BezierSegment Point1="250,0" Point2="50,200" Point3="300,200"/>
+                        </PathFigure>
+                    </PathGeometry>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0">
+                            <BezierSegment Point1="230,0" Point2="50,200" Point3="300,200"/>
+                        </PathFigure>
+                    </PathGeometry>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0">
+                            <BezierSegment Point1="210,0" Point2="50,200" Point3="300,200"/>
+                        </PathFigure>
+                    </PathGeometry>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0">
+                        <BezierSegment Point1="190,0" Point2="50,200" Point3="300,200"/>
+                        </PathFigure>
+                    </PathGeometry>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0">
+                            <BezierSegment Point1="170,0" Point2="50,200" Point3="300,200"/>
+                        </PathFigure>
+                    </PathGeometry>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0">
+                            <BezierSegment Point1="150,0" Point2="50,200" Point3="300,200"/>
+                        </PathFigure>
+                    </PathGeometry>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0">
+                            <BezierSegment Point1="130,0" Point2="50,200" Point3="300,200"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </GeometryGroup>
             </Path.Data>
         </Path>
     </Grid>
