@@ -81,6 +81,9 @@
     <Compile Include="View\DockPanelDemo.xaml.cs">
       <DependentUpon>DockPanelDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\DropShadowBitmapEffectDemo.xaml.cs">
+      <DependentUpon>DropShadowBitmapEffectDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\EllipseDemo.xaml.cs">
       <DependentUpon>EllipseDemo.xaml</DependentUpon>
     </Compile>
@@ -343,6 +346,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\DockPanelDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DropShadowBitmapEffectDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
