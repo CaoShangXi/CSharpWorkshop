@@ -189,6 +189,9 @@
     <Compile Include="View\RectangleDemo.xaml.cs">
       <DependentUpon>RectangleDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\RenderTransformDemo.xaml.cs">
+      <DependentUpon>RenderTransformDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\ResourcesDemo.xaml.cs">
       <DependentUpon>ResourcesDemo.xaml</DependentUpon>
     </Compile>
@@ -394,6 +397,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\RectangleDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RenderTransformDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
