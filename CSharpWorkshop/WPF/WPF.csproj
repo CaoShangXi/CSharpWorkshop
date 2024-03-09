@@ -72,6 +72,9 @@
     <Compile Include="Model\Employee.cs" />
     <Compile Include="Model\Human.cs" />
     <Compile Include="Model\IView.cs" />
+    <Compile Include="View\AnimationDemo.xaml.cs">
+      <DependentUpon>AnimationDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\CanvasDemo.xaml.cs">
       <DependentUpon>CanvasDemo.xaml</DependentUpon>
     </Compile>
@@ -89,6 +92,9 @@
     </Compile>
     <Compile Include="View\GridDemo.xaml.cs">
       <DependentUpon>GridDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LayoutTransformDemo.xaml.cs">
+      <DependentUpon>LayoutTransformDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LineDemo.xaml.cs">
       <DependentUpon>LineDemo.xaml</DependentUpon>
@@ -256,6 +262,10 @@
     <Compile Include="View\XMLToHierarchicalDataTemplate_TreeView.xaml.cs">
       <DependentUpon>XMLToHierarchicalDataTemplate_TreeView.xaml</DependentUpon>
     </Compile>
+    <Page Include="View\AnimationDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\AttachedEventDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -369,6 +379,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\GridDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LayoutTransformDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
