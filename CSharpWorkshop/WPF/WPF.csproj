@@ -93,6 +93,9 @@
     <Compile Include="View\GridDemo.xaml.cs">
       <DependentUpon>GridDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\KeyframesAnimationDemo.xaml.cs">
+      <DependentUpon>KeyframesAnimationDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\LayoutTransformDemo.xaml.cs">
       <DependentUpon>LayoutTransformDemo.xaml</DependentUpon>
     </Compile>
@@ -379,6 +382,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\GridDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KeyframesAnimationDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
