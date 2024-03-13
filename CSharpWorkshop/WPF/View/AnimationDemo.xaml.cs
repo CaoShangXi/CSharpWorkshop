@@ -58,18 +58,44 @@ namespace WPF.View
             //this.tt.BeginAnimation(TranslateTransform.YProperty, daY);
             //#endregion
 
+            //#region 动画幅度演示
+            //DoubleAnimation daX = new DoubleAnimation();
+            //DoubleAnimation daY = new DoubleAnimation();
+            ////指定幅度
+            //daX.By = 100D;
+            //daY.By = 100D;
+            ////指定时长
+            //Duration duration = new Duration(TimeSpan.FromMilliseconds(300));
+            //daX.Duration = duration;
+            //daY.Duration = duration;
+            ////动画的主体是TranslateTransform变形，而非Button
+            //this.tt.BeginAnimation(TranslateTransform.XProperty, daX);
+            //this.tt.BeginAnimation(TranslateTransform.YProperty, daY);
+            //#endregion
+
+            #region 乒乓球弹跳效果
+            //EasingFunction是一个扩展性非常强的属性。它的取值是IEasingFunction
+            //接口类型，而WPF自带的IEasingFunction派生类就有十多种，每个派生类都能产生不同的结
+            //束效果。比如BounceEase可以产生乒乓球弹跳式的效果，我们可以直接拿来使用而不必花精
+            //力去亲自创作。
             DoubleAnimation daX = new DoubleAnimation();
             DoubleAnimation daY = new DoubleAnimation();
-            //指定幅度
-            daX.By = 100D;
-            daY.By = 100D;
+            //设置反弹
+            BounceEase be = new BounceEase();
+            be.Bounces = 3;//弹跳3次
+            be.Bounciness = 3;//弹性程度，值越大反弹越低
+            daY.EasingFunction = be;
+            //指定终点
+            daX.To = 300;
+            daY.To = 300;
             //指定时长
-            Duration duration = new Duration(TimeSpan.FromMilliseconds(300));
+            Duration duration = new Duration(TimeSpan.FromMilliseconds(2000));
             daX.Duration = duration;
             daY.Duration = duration;
             //动画的主体是TranslateTransform变形，而非Button
             this.tt.BeginAnimation(TranslateTransform.XProperty, daX);
             this.tt.BeginAnimation(TranslateTransform.YProperty, daY);
+            #endregion
         }
     }
 }
