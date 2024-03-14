@@ -225,6 +225,9 @@
     <Compile Include="View\StackPanelDemo.xaml.cs">
       <DependentUpon>StackPanelDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\StoryboardDemo.xaml.cs">
+      <DependentUpon>StoryboardDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\StyleDemo.xaml.cs">
       <DependentUpon>StyleDemo.xaml</DependentUpon>
     </Compile>
@@ -457,6 +460,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\StackPanelDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StoryboardDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
